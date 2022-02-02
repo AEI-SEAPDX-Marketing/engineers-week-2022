@@ -2,8 +2,9 @@
 @import '../css/font-awesome.css';
 
 
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
   .navigation {
     float: none !important;
     padding: 10px 0px 10px !important;
@@ -15,7 +16,7 @@
   .navigation nav {
     border: none !important;
     float: none !important;
-    font: 12px/15px 'Josefin Slab', Helvetica, sans-serif;
+    font: 12px/15px 'Josefin Slab',serif;
     text-transform: uppercase;
     color: #927c67;
     margin: 0 auto;
@@ -29,7 +30,7 @@
     float: none;
   }
   .select-menu {
-    font: 12px/15px 'Josefin Slab', sans-serif;
+    font: 12px/15px 'Josefin Slab', serif;
     color: #202020;
     width: 100%;
     margin: 0 auto;
@@ -38,7 +39,7 @@
     display: block !important;
     border: 2px solid #fff ;
   }
-}
+}*/
 
 #stuck_container {
   -webkit-transition: all 0.4s ease;
@@ -82,6 +83,7 @@
 }
 
 html {
+  font-display: fallback;
   width: 100%;
 }
 a[href^="tel:"] {
@@ -92,6 +94,7 @@ sss * {
   -webkit-text-size-adjust: none;
 }
 body {
+  font-family: : 'Josefin Slab';
   position: relative;
   background: #6AB3A8;
   color: #585555;
@@ -143,7 +146,7 @@ h2 {
 
 h3 {
   color: #ffffff;
-  font-family: 'Josefin Slab', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -257,7 +260,6 @@ header .rel {
   z-index: 999;
 }
 header h1 {
-
   color: #ffffff;
   z-index: 999;
   font-size: 80px;
@@ -282,7 +284,7 @@ header h1.logo {
 }
 header .header_top {
   letter-spacing: -1px;
-  font: 300 30px/48px 'Yesteryear', sans-serif;
+  font: 300 30px/48px 'Yesteryear', cursive;
   padding: 182px 0 198px;
   background: url(../images/header-img.jpg) center 0 no-repeat;
 }
@@ -430,15 +432,15 @@ header .header_top {
   font-size: 24px;
   font-weight: 700;
   line-height: 48px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: -1px;
   margin-bottom: 19px;
 }
-.box .box_bot .btn {
+/*.box .box_bot .btn {
   margin-top: 0;
   border-color: #e8e6b9;
   color: #e8e6b9;
-}
+}*/
 .box .box_bot .btn:hover {
   color: #323045;
   border-color: #ffffff;
