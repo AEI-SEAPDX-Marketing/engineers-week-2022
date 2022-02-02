@@ -158,20 +158,9 @@ a {
 a:hover {
   color: #ffeaa5;
 }
-.btn {
-  font: 18px/20px 'Dosis', sans-serif;
-  color: #323045;
-  border: 1px solid #000;
-  display: inline-block;
-  padding: 0px 25px 5px;
-  margin-top: 16px;
-}
-.btn:hover {
-  background-color: #ffffff;
-  border-color: #eee;
-}
+
 /****classes****/
-.mb0 {
+/*.mb0 {
   margin-bottom: 0px !important;
 }
 .m0 {
@@ -238,17 +227,17 @@ a:hover {
 .wrapper,
 .extra_wrapper {
   overflow: hidden;
-}
+}*/
 .clear {
   float: none !important;
   clear: both;
 }
-.oh {
+/*.oh {
   overflow: hidden;
 }
 .nowrap {
   white-space: nowrap;
-}
+}*/
 .rel {
   position: relative;
 }
