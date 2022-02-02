@@ -1,74 +1,8 @@
 @import '../css/grid.css';
 @import '../css/font-awesome.css';
 
-.navigation {
-  z-index: 999;
-  position: relative;
-  padding: 5px 0 0;
-  float: right;
-  font-family: 'Dosis', sans-serif;
-}
-.navigation .sf-menu {
-  z-index: 990;
-  text-align: center;
-  position: relative;
-}
-.navigation nav {
-  position: relative;
-  padding: 0;
-}
-.select-menu {
-  display: none !important;
-}
-.sf-menu ul {
-  position: absolute;
-  top: -999px;
-  display: none;
-}
-.sf-menu > li > ul > li {
-  float: none;
-  position: static;
-}
-.sf-menu > li {
-  float: left;
-  font-weight: 300;
-  position: relative;
-  font-size: 24px;
-  line-height: 48px;
-  letter-spacing: -1px;
-}
-.sf-menu > li + li {
-  margin-left: 36px;
-}
-.sf-menu > li + li:after {
-  content: '';
-  background: url(../images/menu_sep.png) 0 0 no-repeat;
-  height: 5px;
-  width: 5px;
-  position: absolute;
-  left: -20px;
-  top: 10px;
-}
-.sf-menu > li > a {
-  position: relative;
-  color: #ffffff;
-  text-align: center;
-}
-.sf-menu > li > a.sf-with-ul:after {
-  content: '';
-  position: absolute;
-  width: 5px;
-  bottom: 15px;
-  left: 50%;
-  bottom: -5px;
-  pointer-events: none;
-  z-index: 999;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 3px 3px 0 3px;
-  border-color: #fff transparent transparent transparent;
-}
+
+
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 767px) {
