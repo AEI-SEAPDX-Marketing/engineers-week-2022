@@ -84,6 +84,7 @@
 
 html {
   font-display: fallback;
+  visibility: hidden;
   width: 100%;
 }
 a[href^="tel:"] {
@@ -94,7 +95,7 @@ sss * {
   -webkit-text-size-adjust: none;
 }
 body {
-  font-family: : 'Josefin Slab';
+  font-family: : 'Josefin Slab', serif;
   position: relative;
   background: #6AB3A8;
   color: #585555;
@@ -133,7 +134,7 @@ h6 {
 
 h2 {
   color: #171616;
-  font-family: 'Yesteryear';
+  font-family: 'Yesteryear', sans-serif;
   font-size: 38px;
   font-weight: 400;
   line-height: 48px;
@@ -243,7 +244,7 @@ a:hover {
   box-sizing: border-box;
   color: #282826;
   display: table;
-  font-family: "Josefin Slab",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Josefin Slab", serif;
   font-size: 1rem;
   font-weight: 700;
   justify-content: center;
@@ -269,7 +270,7 @@ a:hover {
   box-sizing: border-box;
   color: #282826;
   display: table;
-  font-family: "Josefin Slab",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Josefin Slab", serif;
   font-size: 1rem;
   font-weight: 700;
   justify-content: center;
