@@ -1,5 +1,7 @@
 @import '../css/grid.css';
 @import '../css/font-awesome.css';
+@import '../css/touchTouch.css';
+/* @import '../css/stuck.css'; */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Yesteryear&display=swap');
 
 
@@ -99,6 +101,19 @@ body {
   position: relative;
   background: #6AB3A8;
   color: #282826;
+}
+
+.ic {
+	border:0;
+	float:right;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
 }
 
 strong {
@@ -576,7 +591,7 @@ header .header_top {
   width: 100%;
 }
 
-.box .gall_item span {
+/* .box .gall_item span {
   -webkit-transition: background-position 0.5s ease;
   transition: background-position 0.5s ease;
   position: absolute;
@@ -590,7 +605,7 @@ header .header_top {
 
 .box .gall_item:hover span {
   background-position: center center;
-}
+} */
 
 .box .box_bot {
   background-color: #ffeaa5;
