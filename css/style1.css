@@ -311,10 +311,10 @@ a:hover {
   height: calc(100% - 1px);
 }
 
-.button-53:hover:after {
+/* .button-53:hover:after {
   bottom: 2px;
   left: 2px;
-}
+} */
 
 @media (min-width: 768px) {
   .button-53 {
@@ -467,7 +467,7 @@ header .header_top {
   font-weight: 700;
   line-height: 48px;
   font-weight: 700;
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   margin-bottom: 19px;
 }
 /*.box .box_bot .btn {
@@ -483,6 +483,7 @@ header .header_top {
   top: 0;
 }*/
 .box .box_bot:hover .box_bot_title {
+  /* Causes Photo Title to turn green on hover */
   color: #6AB3A8;
 }
 
